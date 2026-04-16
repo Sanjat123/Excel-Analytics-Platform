@@ -3,6 +3,7 @@
     "Id": "Policy1696144327221",
     "Statement": [
         {
+
             "Sid": "Stmt1696144315905",
             "Effect": "Allow",
             "Principal": "*",
@@ -10,6 +11,7 @@
                 "s3:GetObject",
                 "s3:PutObject"
             ],
+
             "Resource": "arn:aws:s3:::zidio-blog/*"
         }
     ]
